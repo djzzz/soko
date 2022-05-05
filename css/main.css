@@ -1,0 +1,26 @@
+
+#board{
+    display: flex;
+    flex-wrap: wrap;
+    width: 950px;
+}
+#board div{
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+}
+.tile-wall{
+    background-color: brown !important;
+}
+.tile-goal{
+    background-color: green !important;
+}
+.entity-player{
+    background-color: black !important;
+}
+.entity-block{
+    background-color: yellow !important;
+}
+.entity-block-goal{
+    background-color: orange !important;
+}
